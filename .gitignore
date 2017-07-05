@@ -1,0 +1,26 @@
+# Repositories
+.git
+.hg
+.svn
+.hgsvn
+
+# Eclipse
+bin
+.settings
+.project
+.classpath
+
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+
+
+# Maven
+target
+overlays/*
+
+# Java
+classes
+WEB-INF/classes
+WEB-INF/lib
