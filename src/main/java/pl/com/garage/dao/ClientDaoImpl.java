@@ -16,10 +16,32 @@ public class ClientDaoImpl implements ClientDao {
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
+/*
+    private RowMapper<Client> clientRowMapper = (resultSet, rowNum) -> {
+
+        int id = resultSet.getInt("id");
+        String name = resultSet.getString("name");
+        String surname = resultSet.getString("surname");
+
+        return new Client(id, name, surname); };
+*/
+
+    private RowMapper<Client> getClientRowMapper(){
+        return new RowMapper<Client>() {
+            @Override
+            public Client mapRow(ResultSet resultSet, int i) throws SQLException {
+
+                int id = resultSet.getInt("id");
+                String name = resultSet.getString("name");
+                String model = resultSet.getString("name");
+                return new Client(id, name, model);
+            }
+        };
+    }
+
     @Override
     public void addClient(String name, String model) {
-        jdbcTemplate.update("INSERT INTO product( name, model)"+ "VALUES ( ?, ?)",
-                name, model);
+        jdbcTemplate.update("insert into client (name, model) values (?,?)", name, model);
     }
 
     @Override
@@ -40,18 +62,5 @@ public class ClientDaoImpl implements ClientDao {
     @Override
     public List<Client> findAllClient() {
         return jdbcTemplate.query("SELECT * FROM client", getClientRowMapper());
-    }
-
-    private RowMapper<Client> getClientRowMapper(){
-        return new RowMapper<Client>() {
-            @Override
-            public Client mapRow(ResultSet resultSet, int i) throws SQLException {
-
-                int id = resultSet.getInt("id");
-                String name = resultSet.getString("name");
-                String model = resultSet.getString("name");
-                return new Client(id, name, model);
-            }
-        };
     }
 }

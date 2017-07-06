@@ -9,4 +9,6 @@ CREATE TABLE client (
 INSERT INTO client (NAME, MODEL) VALUES ('Kowalski', 'Punto');
 INSERT INTO client (NAME, MODEL) VALUES ('Szatel', 'Megane');
 INSERT INTO client (NAME, MODEL) VALUES ('Nowak', 'f150');
-INSERT INTO client (NAME, MODEL) VALUES ('Lato', 'V50');
+INSERT INTO client (NAME, MODEL) VALUES ('Lato', 'V5000');
+
+select * from client;

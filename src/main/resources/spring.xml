@@ -10,8 +10,18 @@
     <context:annotation-config/>
     <context:component-scan base-package="pl.com.garage"/>
 
-    <import resource="dao.xml"/>
+
+    <!--to samo co 1-->
+    <!--<context:property-placeholder location="classpath:params.properties" file-encoding="windows-1250" ignore-unresolvable="true"/>-->
+
+    <import resource="classpath:dao.xml"/>
 
 
+    <!--<bean id="productService" class="pl.com.sages.spring.bootcamp.service.ProductService"/>-->
+    <!--<bean id="paymentService" class="pl.com.sages.spring.bootcamp.service.PaymentService" />-->
+    <!--<bean id="cartService" class="pl.com.sages.spring.bootcamp.service.CartService"/>-->
 
+    <!--<bean id="applicationService" class="pl.com.sages.spring.bootcamp.service.ApplicationService" init-method="afterCreate" destroy-method="beforeDestroy" scope="prototype">-->
+    <!--<property name="applicationName" value="${kodolamacz.app.name}"/>-->
+    <!--</bean>-->
 </beans>
