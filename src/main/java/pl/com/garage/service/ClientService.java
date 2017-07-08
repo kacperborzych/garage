@@ -17,8 +17,8 @@ public class ClientService {
         clientDao.addClient(name, model);
     }
 
-    public void findClient(int id) {
-        clientDao.findClient(id);
+    public Client findClient(int id) {
+       return clientDao.findClient(id);
     }
 
     public void updateClient(String name, String model) {

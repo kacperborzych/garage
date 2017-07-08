@@ -1,6 +1,7 @@
 package pl.com.garage.dao;
 
 import org.assertj.core.api.Assertions;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,16 +20,17 @@ import static org.junit.Assert.*;
 @ContextConfiguration("classpath:spring.xml")
 public class ClientDaoImplTest {
 
-        jdbcTemplate.execute("truncate clients");
-        clientService.addClient("kasia","kot","123");
-        clientService.addClient("pawel","siekawa","456");
-        clientService.addClient("monika","gadzina","789");
 
     @Autowired
     private ClientService clientService;
 
     @Autowired
     private JdbcTemplate jdbcTemplate;
+
+    @Before
+    public void before() {
+        jdbcTemplate.execute("truncate client");
+    }
 
     @Test
     public void shouldAddClient() throws Exception {
@@ -51,15 +53,18 @@ public class ClientDaoImplTest {
         Integer id = jdbcTemplate.queryForObject("select max(id) from client", Integer.class);
 
         //when
-//        Client client = clientService.findClient(id);
+        Client outPutClient = clientService.findClient(id);
 
-        //given
+        //then
+        Assertions.assertThat(outPutClient.getId()).isEqualTo(id);
+        Assertions.assertThat(outPutClient.getName()).isEqualTo("Kamila");
     }
 
     @Test
     public void shouldUpdateClient() throws Exception {
 
         //given
+        clientService.addClient("Kamila", "Alfa");
 
         //when
         clientService.updateClient("Kamila", "Ford");
@@ -70,13 +75,29 @@ public class ClientDaoImplTest {
     }
 
     @Test
+    public void shouldDelateClient() throws Exception {
+
+        //given
+        clientService.addClient("Kamil", "Alfa");
+        clientService.addClient("Asia", "Omega");
+
+        //when
+        clientService.delateClient("Kamil");
+        Integer countClients = jdbcTemplate.queryForObject("SELECT count(*) FROM client", Integer.class);
+        //then
+        Assertions.assertThat(countClients).isEqualTo(1);
+    }
+
+    @Test
     public void shouldFindAllClients() throws Exception {
 
         //then
+        clientService.addClient("Kamila", "Alfa");
 
         //when
         List<Client> outPutClientList = clientService.findAllClient();
 
         //given
+        Assertions.assertThat(outPutClientList.size()).isEqualTo(1);
     }
 }

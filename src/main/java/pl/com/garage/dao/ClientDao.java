@@ -10,7 +10,7 @@ public interface ClientDao {
 
     void addClient (String name, String model);
 
-    void findClient (int id);
+    Client findClient (int id);
 
     void updateClient (String name, String model);
 

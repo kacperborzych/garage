@@ -23,10 +23,10 @@
 
     <!--Zwykły dataSource-->
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-        <property name="driverClassName" value="org.postgresql.Driver"/>
-        <property name="url" value="jdbc:postgresql://postgres.jastadomain.ovh:7003/garage"/>
-        <property name="username" value="spring"/>
-        <property name="password" value="spring123"/>
+        <property name="driverClassName" value="${spring.jdbc.driverClassName}"/>
+        <property name="url" value="${spring.jdbc.url}"/>
+        <property name="username" value="${spring.jdbc.username}"/>
+        <property name="password" value="${spring.jdbc.password}"/>
     </bean>
 
     <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">

@@ -6,6 +6,9 @@ public class Client {
     private String name;
     private String model;
 
+    public int getId() {
+        return id;
+    }
 
     public String getName() {
         return name;

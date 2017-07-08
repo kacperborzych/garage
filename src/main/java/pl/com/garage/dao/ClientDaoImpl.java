@@ -45,18 +45,18 @@ public class ClientDaoImpl implements ClientDao {
     }
 
     @Override
-    public void findClient(int id) {
-        jdbcTemplate.queryForObject("SELECT * FROM client WHERE id = ?", getClientRowMapper(), id);
+    public Client findClient(int id) {
+       return jdbcTemplate.queryForObject("SELECT * FROM client WHERE id = ?", getClientRowMapper(), id);
     }
 
     @Override
     public void updateClient(String name, String model) {
-        jdbcTemplate.queryForObject("UPDATE client SET model = ? WHERE name = ?", getClientRowMapper(), model, name);
+        jdbcTemplate.update("UPDATE client SET model =? WHERE name =?", getClientRowMapper(), model, name);
     }
 
     @Override
     public void delateClient(String name) {
-        jdbcTemplate.queryForObject("DELATE FROM client WHERE name = ?", getClientRowMapper(), name);
+        jdbcTemplate.update("DELETE FROM client WHERE name = ?", name);
     }
 
     @Override
