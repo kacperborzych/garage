@@ -13,3 +13,12 @@ INSERT INTO client (NAME, MODEL) VALUES ('Nowak', 'f150');
 INSERT INTO client (NAME, MODEL) VALUES ('Lato', 'V5000');
 
 select * from client;
+
+DROP TABLE IF EXISTS employee;
+
+CREATE TABLE employee (
+  ID    BIGSERIAL NOT NULL PRIMARY KEY,
+  NAME  TEXT      NOT NULL,
+  SURNAME TEXT      NOT NULL,
+  SALARY  DECIMAL NOT NULL
+);

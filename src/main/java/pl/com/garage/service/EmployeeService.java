@@ -14,8 +14,24 @@ public class EmployeeService {
     @Autowired
     private EmployeeDao employeeDao;
 
-    public List<Employee> findAll(){
-        return employeeDao.findAll();
+    public void addEmployee(String name, String surname, double salary){
+        employeeDao.addEmployee(name, surname,salary);
+    }
 
+    public Employee findEmployeeBySurname(String surname){
+       return employeeDao.findEmployeeBySurname(surname);
+    }
+
+    public void updateSalaryEmployee(String name, double salary){
+        employeeDao.updateSalaryEmployee(salary, name);
+    }
+
+    public void deleteEmployee(String name, String surname){
+        employeeDao.deleteEmployee(name, surname);
+    }
+
+    public List<Employee> findAllEmployees(){
+        return employeeDao.findAllEmployees();
     }
 }
+

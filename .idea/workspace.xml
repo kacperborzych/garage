@@ -2,26 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="361ce4ed-bc4a-4ba8-a97e-ed0ace9ac5f7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/4a159c8f-45dc-4fe6-9e21-eee161fd5965/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/4a159c8f-45dc-4fe6-9e21-eee161fd5965/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/4a159c8f-45dc-4fe6-9e21-eee161fd5965/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/4a159c8f-45dc-4fe6-9e21-eee161fd5965/_metadata_/metadata.keystream" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/4a159c8f-45dc-4fe6-9e21-eee161fd5965/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/4a159c8f-45dc-4fe6-9e21-eee161fd5965/_metadata_/metadata.keystream.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/4a159c8f-45dc-4fe6-9e21-eee161fd5965/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/4a159c8f-45dc-4fe6-9e21-eee161fd5965/_metadata_/metadata.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/4a159c8f-45dc-4fe6-9e21-eee161fd5965/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/4a159c8f-45dc-4fe6-9e21-eee161fd5965/_metadata_/metadata.values.at" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/4a159c8f-45dc-4fe6-9e21-eee161fd5965/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/4a159c8f-45dc-4fe6-9e21-eee161fd5965/_metadata_/metadata_i" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pl/com/garage/dao/EmployeeDaoImplTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/pl/com/garage/giu/EmployeeServiceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/pl/com/garage/giu/MainAppTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/4a159c8f-45dc-4fe6-9e21-eee161fd5965.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/4a159c8f-45dc-4fe6-9e21-eee161fd5965.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/com/garage/dao/ClientDao.java" afterPath="$PROJECT_DIR$/src/main/java/pl/com/garage/dao/ClientDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/com/garage/dao/ClientDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/pl/com/garage/dao/ClientDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/com/garage/model/Client.java" afterPath="$PROJECT_DIR$/src/main/java/pl/com/garage/model/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/com/garage/service/ClientService.java" afterPath="$PROJECT_DIR$/src/main/java/pl/com/garage/service/ClientService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/dao.properties" afterPath="$PROJECT_DIR$/src/main/resources/dao.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/dao.xml" afterPath="$PROJECT_DIR$/src/main/resources/dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sql/admin.sql" afterPath="$PROJECT_DIR$/src/main/resources/sql/admin.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/com/garage/dao/EmployeeDao.java" afterPath="$PROJECT_DIR$/src/main/java/pl/com/garage/dao/EmployeeDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/com/garage/dao/EmployeeDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/pl/com/garage/dao/EmployeeDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/com/garage/giu/MainApp.java" afterPath="$PROJECT_DIR$/src/main/java/pl/com/garage/giu/MainApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/com/garage/model/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/pl/com/garage/model/Employee.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/com/garage/service/EmployeeService.java" afterPath="$PROJECT_DIR$/src/main/java/pl/com/garage/service/EmployeeService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sql/schema.sql" afterPath="$PROJECT_DIR$/src/main/resources/sql/schema.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pl/com/garage/dao/ClientDaoImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/pl/com/garage/dao/ClientDaoImplTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,6 +81,28 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
       </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="workshop@postgres.jastadomain.ovh" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="workshop" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="public" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
       <PATH_ELEMENT>
         <option name="myItemId" value="client" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
@@ -99,75 +112,75 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClientDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/garage/dao/ClientDaoImpl.java">
+      <file leaf-file-name="EmployeeDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/garage/dao/EmployeeDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="53" column="93" lean-forward="false" selection-start-line="53" selection-start-column="93" selection-end-line="53" selection-end-column="93" />
+            <state relative-caret-position="396">
+              <caret line="42" column="74" lean-forward="false" selection-start-line="42" selection-start-column="74" selection-end-line="42" selection-end-column="74" />
               <folding>
-                <element signature="e#1782#1783#0" expanded="true" />
-                <element signature="e#1860#1861#0" expanded="true" />
-                <marker date="1499517679000" expanded="true" signature="1304:1349" ph="insert into CLIENTS... " />
-                <marker date="1499517679000" expanded="true" signature="1469:1502" ph="SELECT * FRO... client" />
-                <marker date="1499517679000" expanded="true" signature="1640:1680" ph="UPDATE clien... " />
-                <marker date="1499517679000" expanded="true" signature="1813:1846" ph="DELETE FROM " />
-                <marker date="1499517679000" expanded="true" signature="1954:1974" ph="SELECT * FRO... client" />
+                <marker date="1499542161000" expanded="true" signature="1013:1072" ph="INSERT INTO employee... " />
+                <marker date="1499542161000" expanded="true" signature="1225:1265" ph="SELECT * FRO... employee" />
+                <marker date="1499542161000" expanded="true" signature="1419:1462" ph="UPDATE emplo... " />
+                <marker date="1499542161000" expanded="true" signature="1637:1688" ph="DELETE FROM " />
+                <marker date="1499542161000" expanded="true" signature="1822:1844" ph="SELECT * FRO... employee" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/garage/service/ClientService.java">
+      <file leaf-file-name="EmployeeService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/garage/service/EmployeeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="465">
+              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
               <folding>
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientDaoImplTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EmployeeDaoImplTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pl/com/garage/dao/EmployeeDaoImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="89" column="49" lean-forward="false" selection-start-line="89" selection-start-column="49" selection-end-line="89" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1499542161000" expanded="true" signature="1181:1211" ph="SELECT COUNT... employee" />
+                <marker date="1499542161000" expanded="true" signature="1559:1598" ph="SELECT * FRO... employee" />
+                <marker date="1499542161000" expanded="true" signature="1944:1984" ph="SELECT salar... employee" />
+                <marker date="1499542161000" expanded="true" signature="2306:2336" ph="SELECT COUNT... employee" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientDaoImplTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/com/garage/dao/ClientDaoImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="87" column="55" lean-forward="false" selection-start-line="87" selection-start-column="55" selection-end-line="87" selection-end-column="55" />
+            <state relative-caret-position="21">
+              <caret line="65" column="15" lean-forward="true" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
               <folding>
-                <element signature="e#807#808#0" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
-                <marker date="1499517710000" expanded="true" signature="1083:1128" ph="select count... client" />
-                <marker date="1499517710000" expanded="true" signature="1403:1429" ph="select max(i... client" />
-                <marker date="1499517710000" expanded="true" signature="1970:2009" ph="SELECT model... client" />
-                <marker date="1499517710000" expanded="true" signature="2413:2440" ph="SELECT count... client" />
+                <marker date="1499517726000" expanded="true" signature="1083:1128" ph="select count... client" />
+                <marker date="1499517726000" expanded="true" signature="1403:1429" ph="select max(i... client" />
+                <marker date="1499517726000" expanded="true" signature="1970:2009" ph="SELECT model... client" />
+                <marker date="1499517726000" expanded="true" signature="2413:2440" ph="SELECT count... client" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/garage/dao/ClientDao.java">
+      <file leaf-file-name="EmployeeDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/garage/dao/EmployeeDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state relative-caret-position="225">
+              <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/garage/model/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding>
-                <element signature="e#173#174#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -179,8 +192,8 @@
       <list>
         <option value="Interface" />
         <option value="spring-beans.schema" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -208,7 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/pl/com/garage/dao/EmployeeDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/pl/com/garage/dao/MagazienDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/pl/com/garage/dao/ClientDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/pl/com/garage/dao/OrderDao.java" />
@@ -227,16 +239,10 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/dao/PartsDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/dao/RepairDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/service/TimelabService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/com/garage/giu/MainAppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/service/MagazineService.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/service/OrderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/service/RepairService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/model/Employee.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/com/garage/giu/MagazineServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/service/EmployeeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/dao/EmployeeDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/dao/EmployeeDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/com/garage/giu/EmployeeServiceTest.java" />
         <option value="$PROJECT_DIR$/../springbootcamp/src/main/java/pl/com/sages/spring/bootcamp/service/ProductService.java" />
         <option value="$PROJECT_DIR$/../springbootcamp/src/main/resources/sql/admin.sql" />
         <option value="$PROJECT_DIR$/../springbootcamp/src/main/resources/dao.properties" />
@@ -248,9 +254,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/spring.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/giu/MainApp.java" />
         <option value="$PROJECT_DIR$/src/main/resources/sql/admin.sql" />
-        <option value="$PROJECT_DIR$/src/main/resources/sql/schema.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/dao.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/dao.xml" />
         <option value="dbtable:/83dd006f/4a159c8f-45dc-4fe6-9e21-eee161fd5965/workshop.public.client" />
@@ -258,7 +262,16 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/dao/ClientDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/service/ClientService.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/dao/ClientDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/com/garage/giu/EmployeeServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/com/garage/giu/MainAppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/sql/schema.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/model/Employee.java" />
         <option value="$PROJECT_DIR$/src/test/java/pl/com/garage/dao/ClientDaoImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/giu/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/dao/EmployeeDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/dao/EmployeeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/com/garage/service/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/com/garage/dao/EmployeeDaoImplTest.java" />
       </list>
     </option>
   </component>
@@ -347,6 +360,10 @@
               <option name="myItemId" value="garage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="giu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -395,6 +412,36 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -419,6 +466,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="garage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -526,6 +577,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="pl.com.garage.dao" />
       <recent name="pl.com.garage.giu" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -551,8 +603,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ClientDaoImplTest.shouldDelateClient">
-    <configuration default="false" name="ClientDaoImplTest.shouldAddClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EmployeeDaoImplTest.shouldFindAllEmployees">
+    <configuration default="false" name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="pl.com.garage.giu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="pl.com.garage.giu.MainApp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="workshop" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="EmployeeDaoImplTest.ShouldUpdateEmployeeSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="pl.com.garage.dao.*" />
@@ -563,8 +635,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="pl.com.garage.dao" />
-      <option name="MAIN_CLASS_NAME" value="pl.com.garage.dao.ClientDaoImplTest" />
-      <option name="METHOD_NAME" value="shouldAddClient" />
+      <option name="MAIN_CLASS_NAME" value="pl.com.garage.dao.EmployeeDaoImplTest" />
+      <option name="METHOD_NAME" value="ShouldUpdateEmployeeSalary" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -578,7 +650,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ClientDaoImplTest.shouldUpdateClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="EmployeeDaoImplTest.shoulddelateEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="pl.com.garage.dao.*" />
@@ -589,8 +661,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="pl.com.garage.dao" />
-      <option name="MAIN_CLASS_NAME" value="pl.com.garage.dao.ClientDaoImplTest" />
-      <option name="METHOD_NAME" value="shouldUpdateClient" />
+      <option name="MAIN_CLASS_NAME" value="pl.com.garage.dao.EmployeeDaoImplTest" />
+      <option name="METHOD_NAME" value="shoulddelateEmployee" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -604,7 +676,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ClientDaoImplTest.shouldFindClientById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="EmployeeDaoImplTest.shoulDelateEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="pl.com.garage.dao.*" />
@@ -615,8 +687,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="pl.com.garage.dao" />
-      <option name="MAIN_CLASS_NAME" value="pl.com.garage.dao.ClientDaoImplTest" />
-      <option name="METHOD_NAME" value="shouldFindClientById" />
+      <option name="MAIN_CLASS_NAME" value="pl.com.garage.dao.EmployeeDaoImplTest" />
+      <option name="METHOD_NAME" value="shoulDelateEmployee" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -630,7 +702,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="ClientDaoImplTest.shouldFindAllClients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="EmployeeDaoImplTest.shouldFindAllEmployees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="pl.com.garage.dao.*" />
@@ -641,34 +713,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="pl.com.garage.dao" />
-      <option name="MAIN_CLASS_NAME" value="pl.com.garage.dao.ClientDaoImplTest" />
-      <option name="METHOD_NAME" value="shouldFindAllClients" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ClientDaoImplTest.shouldDelateClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="pl.com.garage.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="workshop" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="pl.com.garage.dao" />
-      <option name="MAIN_CLASS_NAME" value="pl.com.garage.dao.ClientDaoImplTest" />
-      <option name="METHOD_NAME" value="shouldDelateClient" />
+      <option name="MAIN_CLASS_NAME" value="pl.com.garage.dao.EmployeeDaoImplTest" />
+      <option name="METHOD_NAME" value="shouldFindAllEmployees" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1070,19 +1116,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ClientDaoImplTest.shouldAddClient" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ClientDaoImplTest.shouldUpdateClient" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ClientDaoImplTest.shouldFindClientById" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ClientDaoImplTest.shouldFindAllClients" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ClientDaoImplTest.shouldDelateClient" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MainApp" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.EmployeeDaoImplTest.ShouldUpdateEmployeeSalary" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.EmployeeDaoImplTest.shoulddelateEmployee" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.EmployeeDaoImplTest.shoulDelateEmployee" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.EmployeeDaoImplTest.shouldFindAllEmployees" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ClientDaoImplTest.shouldDelateClient" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ClientDaoImplTest.shouldUpdateClient" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ClientDaoImplTest.shouldFindAllClients" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ClientDaoImplTest.shouldFindClientById" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ClientDaoImplTest.shouldAddClient" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.EmployeeDaoImplTest.shouldFindAllEmployees" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.EmployeeDaoImplTest.shoulDelateEmployee" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.EmployeeDaoImplTest.shoulddelateEmployee" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.EmployeeDaoImplTest.ShouldUpdateEmployeeSalary" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MainApp" />
       </list>
     </recent_temporary>
   </component>
@@ -1101,7 +1147,7 @@
       <workItem from="1499330683751" duration="12000" />
       <workItem from="1499331096259" duration="123000" />
       <workItem from="1499431123518" duration="5094000" />
-      <workItem from="1499513106380" duration="4085000" />
+      <workItem from="1499513106380" duration="18923000" />
     </task>
     <task id="LOCAL-00001" summary="edit dao.xml">
       <created>1499273725180</created>
@@ -1114,67 +1160,68 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClientDaoImplTest_shouldDelateClient - 2017.07.08 at 14h 34m 11s.xml">
-      <configuration name="ClientDaoImplTest.shouldDelateClient" configurationId="JUnit" />
+    <history-entry file="EmployeeDaoImplTest_ShouldUpdateEmployeeSalary - 2017.07.08 at 20h 49m 33s.xml">
+      <configuration name="EmployeeDaoImplTest.ShouldUpdateEmployeeSalary" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientDaoImplTest_shouldDelateClient - 2017.07.08 at 14h 35m 35s.xml">
-      <configuration name="ClientDaoImplTest.shouldDelateClient" configurationId="JUnit" />
+    <history-entry file="EmployeeDaoImplTest_shoulDelateEmployee - 2017.07.08 at 21h 00m 31s.xml">
+      <configuration name="EmployeeDaoImplTest.shoulDelateEmployee" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientDaoImplTest_shouldDelateClient - 2017.07.08 at 14h 36m 22s.xml">
-      <configuration name="ClientDaoImplTest.shouldDelateClient" configurationId="JUnit" />
+    <history-entry file="EmployeeDaoImplTest_shoulDelateEmployee - 2017.07.08 at 21h 01m 12s.xml">
+      <configuration name="EmployeeDaoImplTest.shoulDelateEmployee" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientDaoImplTest_shouldDelateClient - 2017.07.08 at 14h 40m 47s.xml">
-      <configuration name="ClientDaoImplTest.shouldDelateClient" configurationId="JUnit" />
+    <history-entry file="EmployeeDaoImplTest_shoulDelateEmployee - 2017.07.08 at 21h 11m 02s.xml">
+      <configuration name="EmployeeDaoImplTest.shoulDelateEmployee" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientDaoImplTest_shouldDelateClient - 2017.07.08 at 14h 41m 27s.xml">
-      <configuration name="ClientDaoImplTest.shouldDelateClient" configurationId="JUnit" />
+    <history-entry file="EmployeeDaoImplTest_shoulDelateEmployee - 2017.07.08 at 21h 14m 25s.xml">
+      <configuration name="EmployeeDaoImplTest.shoulDelateEmployee" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientDaoImplTest_shouldDelateClient - 2017.07.08 at 14h 41m 58s.xml">
-      <configuration name="ClientDaoImplTest.shouldDelateClient" configurationId="JUnit" />
+    <history-entry file="EmployeeDaoImplTest_shoulDelateEmployee - 2017.07.08 at 21h 16m 39s.xml">
+      <configuration name="EmployeeDaoImplTest.shoulDelateEmployee" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientDaoImplTest_shouldFindAllClients - 2017.07.08 at 14h 23m 19s.xml">
-      <configuration name="ClientDaoImplTest.shouldFindAllClients" configurationId="JUnit" />
+    <history-entry file="EmployeeDaoImplTest_shoulDelateEmployee - 2017.07.08 at 21h 17m 15s.xml">
+      <configuration name="EmployeeDaoImplTest.shoulDelateEmployee" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientDaoImplTest_shouldUpdateClient - 2017.07.08 at 14h 23m 32s.xml">
-      <configuration name="ClientDaoImplTest.shouldUpdateClient" configurationId="JUnit" />
+    <history-entry file="EmployeeDaoImplTest_shouldFindAllEmployees - 2017.07.08 at 21h 29m 31s.xml">
+      <configuration name="EmployeeDaoImplTest.shouldFindAllEmployees" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientDaoImplTest_shouldUpdateClient - 2017.07.08 at 14h 24m 05s.xml">
-      <configuration name="ClientDaoImplTest.shouldUpdateClient" configurationId="JUnit" />
+    <history-entry file="EmployeeDaoImplTest_shoulddelateEmployee - 2017.07.08 at 20h 55m 23s.xml">
+      <configuration name="EmployeeDaoImplTest.shoulddelateEmployee" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClientDaoImplTest_shouldUpdateClient - 2017.07.08 at 14h 24m 34s.xml">
-      <configuration name="ClientDaoImplTest.shouldUpdateClient" configurationId="JUnit" />
+    <history-entry file="EmployeeDaoImplTest_shoulddelateEmployee - 2017.07.08 at 20h 56m 36s.xml">
+      <configuration name="EmployeeDaoImplTest.shoulddelateEmployee" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37220000" />
+    <option name="totallyTimeSpent" value="52058000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46027398" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21728595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46027398" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21728595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1183,7 +1230,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32956383" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1278,7 +1324,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1287,69 +1333,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/garage/service/RepairService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/garage/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/garage/service/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/garage/dao/EmployeeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/com/garage/giu/MagazineServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springbootcamp/src/main/java/pl/com/sages/spring/bootcamp/gui/MainApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/com/garage/giu/EmployeeServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="46" column="46" lean-forward="false" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springbootcamp/src/main/java/pl/com/sages/spring/bootcamp/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springbootcamp/src/main/java/pl/com/sages/spring/bootcamp/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../springbootcamp/src/main/resources/dao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1658,22 +1641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/garage/giu/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../springbootcamp/src/main/resources/dao.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1711,21 +1678,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/garage/dao/EmployeeDaoImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.9.RELEASE/spring-jdbc-4.3.9.RELEASE-sources.jar!/org/springframework/jdbc/core/RowMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="570">
+          <caret line="59" column="6" lean-forward="false" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/garage/model/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#173#174#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/com/garage/giu/MainAppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1737,27 +1710,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/com/garage/giu/EmployeeServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="26" column="34" lean-forward="false" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/com/garage/giu/MagazineServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.9.RELEASE/spring-jdbc-4.3.9.RELEASE-sources.jar!/org/springframework/jdbc/core/SingleColumnRowMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/garage/service/ClientService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/garage/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/garage/giu/MainApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/garage/dao/ClientDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="53" column="93" lean-forward="false" selection-start-line="53" selection-start-column="93" selection-end-line="53" selection-end-column="93" />
+        <state relative-caret-position="15">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
-            <element signature="e#1782#1783#0" expanded="true" />
-            <element signature="e#1860#1861#0" expanded="true" />
             <marker date="1499517679000" expanded="true" signature="1304:1349" ph="insert into CLIENTS... " />
             <marker date="1499517679000" expanded="true" signature="1469:1502" ph="SELECT * FRO... client" />
             <marker date="1499517679000" expanded="true" signature="1640:1680" ph="UPDATE clien... " />
@@ -1767,17 +1784,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/garage/service/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/garage/dao/EmployeeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/garage/dao/EmployeeDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="42" column="74" lean-forward="false" selection-start-line="42" selection-start-column="74" selection-end-line="42" selection-end-column="74" />
+          <folding>
+            <marker date="1499542161000" expanded="true" signature="1013:1072" ph="INSERT INTO employee... " />
+            <marker date="1499542161000" expanded="true" signature="1225:1265" ph="SELECT * FRO... employee" />
+            <marker date="1499542161000" expanded="true" signature="1419:1462" ph="UPDATE emplo... " />
+            <marker date="1499542161000" expanded="true" signature="1637:1688" ph="DELETE FROM " />
+            <marker date="1499542161000" expanded="true" signature="1822:1844" ph="SELECT * FRO... employee" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/com/garage/dao/ClientDaoImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="87" column="55" lean-forward="false" selection-start-line="87" selection-start-column="55" selection-end-line="87" selection-end-column="55" />
+        <state relative-caret-position="21">
+          <caret line="65" column="15" lean-forward="true" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
           <folding>
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <marker date="1499517710000" expanded="true" signature="1083:1128" ph="select count... client" />
-            <marker date="1499517710000" expanded="true" signature="1403:1429" ph="select max(i... client" />
-            <marker date="1499517710000" expanded="true" signature="1970:2009" ph="SELECT model... client" />
-            <marker date="1499517710000" expanded="true" signature="2413:2440" ph="SELECT count... client" />
+            <marker date="1499517726000" expanded="true" signature="1083:1128" ph="select count... client" />
+            <marker date="1499517726000" expanded="true" signature="1403:1429" ph="select max(i... client" />
+            <marker date="1499517726000" expanded="true" signature="1970:2009" ph="SELECT model... client" />
+            <marker date="1499517726000" expanded="true" signature="2413:2440" ph="SELECT count... client" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/com/garage/dao/EmployeeDaoImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="89" column="49" lean-forward="false" selection-start-line="89" selection-start-column="49" selection-end-line="89" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1499542161000" expanded="true" signature="1181:1211" ph="SELECT COUNT... employee" />
+            <marker date="1499542161000" expanded="true" signature="1559:1598" ph="SELECT * FRO... employee" />
+            <marker date="1499542161000" expanded="true" signature="1944:1984" ph="SELECT salar... employee" />
+            <marker date="1499542161000" expanded="true" signature="2306:2336" ph="SELECT COUNT... employee" />
           </folding>
         </state>
       </provider>

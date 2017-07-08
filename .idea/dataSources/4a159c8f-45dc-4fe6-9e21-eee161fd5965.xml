@@ -9,8 +9,8 @@
     </database>
     <schema id="3" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2017-07-07.15:46:21.176</IntrospectionTimestamp>
-      <IntrospectionStateNumber>939</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2017-07-08.16:32:17.275</IntrospectionTimestamp>
+      <IntrospectionStateNumber>1025</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -29,16 +29,26 @@
     <schema id="8" parent="2" name="information_schema">
       <ObjectId>12119</ObjectId>
     </schema>
-    <sequence id="9" parent="3" name="client_id_seq">
+    <sequence id="9" parent="3" name="employee_id_seq">
+      <ObjectId>17229</ObjectId>
+      <StateNumber>1025</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="10" parent="3" name="client_id_seq">
       <ObjectId>17173</ObjectId>
       <StateNumber>939</StateNumber>
       <BelongsToColumn>1</BelongsToColumn>
     </sequence>
-    <table id="10" parent="3" name="client">
+    <table id="11" parent="3" name="client">
       <ObjectId>17175</ObjectId>
-      <StateNumber>939</StateNumber>
+      <StateNumber>1021</StateNumber>
     </table>
-    <column id="11" parent="10" name="id">
+    <table id="12" parent="3" name="employee">
+      <ObjectId>17231</ObjectId>
+      <StateNumber>1025</StateNumber>
+    </table>
+    <column id="13" parent="11" name="id">
       <Position>1</Position>
       <DataType>bigint|0</DataType>
       <NotNull>1</NotNull>
@@ -46,27 +56,64 @@
       <SequenceName>client_id_seq</SequenceName>
       <DefaultExpression>nextval(&apos;client_id_seq&apos;::regclass)</DefaultExpression>
     </column>
-    <column id="12" parent="10" name="name">
+    <column id="14" parent="11" name="name">
       <Position>2</Position>
       <DataType>text|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>939</StateNumber>
     </column>
-    <column id="13" parent="10" name="model">
+    <column id="15" parent="11" name="model">
       <Position>3</Position>
       <DataType>text|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>939</StateNumber>
     </column>
-    <index id="14" parent="10" name="client_pkey">
+    <index id="16" parent="11" name="client_pkey">
       <ObjectId>17182</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="15" parent="10" name="client_pkey">
+    <key id="17" parent="11" name="client_pkey">
       <ObjectId>17183</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>client_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="18" parent="12" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1025</StateNumber>
+      <SequenceName>employee_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;employee_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="19" parent="12" name="name">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1025</StateNumber>
+    </column>
+    <column id="20" parent="12" name="surname">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1025</StateNumber>
+    </column>
+    <column id="21" parent="12" name="salary">
+      <Position>4</Position>
+      <DataType>numeric|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1025</StateNumber>
+    </column>
+    <index id="22" parent="12" name="employee_pkey">
+      <ObjectId>17238</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="23" parent="12" name="employee_pkey">
+      <ObjectId>17239</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>employee_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
   </database-model>

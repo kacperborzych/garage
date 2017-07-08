@@ -20,7 +20,9 @@ public class MainApp {
         OrderService orderService = applicationContext.getBean(OrderService.class);
         RepairService repairService = applicationContext.getBean(RepairService.class);
 
-        clientService.addClient("Maciek", "Opel");
+
+        employeeService.addEmployee("Karol", "Mizga", 3200);
+        employeeService.updateSalaryEmployee("Karol", 1190);
 
         applicationContext.close();
     }
