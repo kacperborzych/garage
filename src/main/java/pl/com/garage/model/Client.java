@@ -1,10 +1,15 @@
 package pl.com.garage.model;
 
+import org.springframework.stereotype.Component;
 
+@Component
 public class Client {
     private int id;
     private String name;
     private String model;
+
+    public Client() {
+    }
 
     public int getId() {
         return id;
