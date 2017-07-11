@@ -12,6 +12,11 @@
         Dodaj Klienta
     </li>
 </ul>
-
+<ul>
+    <li>
+        <a href="findClientById.html"/>
+        Znajdz klienta
+    </li>
+</ul>
 </body>
 </html>

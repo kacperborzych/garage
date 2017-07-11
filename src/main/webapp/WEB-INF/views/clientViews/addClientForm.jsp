@@ -21,7 +21,7 @@
 </f:form>
 
 <p>
-<a href="/idex.html">
+<a href="/garage">
     Powrot do strony glownej</a>
 </p>
 

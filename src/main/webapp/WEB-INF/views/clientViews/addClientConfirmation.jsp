@@ -7,7 +7,12 @@
     <title>Dodano klienta</title>
 </head>
 <body>
-<h1>Dodano klienta</h1>
+<h1>Sukces</h1>
+<p>Dodano nowego klienta ${client.name} ${client.carModel}</p>
+
+<a href="/garage">
+    Menu glowne
+</a>
 
 </body>
 </html>
