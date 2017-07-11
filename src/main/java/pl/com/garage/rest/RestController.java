@@ -2,10 +2,7 @@ package pl.com.garage.rest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import pl.com.garage.model.Client;
 import pl.com.garage.service.ClientService;
 
@@ -28,8 +25,8 @@ public class RestController {
         return clientService.findAllClient();
     }
 
-    @RequestMapping(value = "/save2/{name}/{price}")
-    public String saveClient(@RequestParam String name, @RequestParam String model){
+    @RequestMapping(value = "/save2/{name}/{model}")
+    public String saveClient(@PathVariable String name, @PathVariable String model) {
         clientService.addClient(name, model);
         return "Zapisano imie: " + name + " " + model;
     }

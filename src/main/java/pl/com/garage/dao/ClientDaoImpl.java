@@ -33,7 +33,7 @@ public class ClientDaoImpl implements ClientDao {
 
                 int id = resultSet.getInt("id");
                 String name = resultSet.getString("name");
-                String model = resultSet.getString("name");
+                String model = resultSet.getString("model");
                 return new Client(id, name, model);
             }
         };
@@ -51,7 +51,7 @@ public class ClientDaoImpl implements ClientDao {
 
     @Override
     public void updateClient(String name, String model) {
-        jdbcTemplate.update("UPDATE client SET model =? WHERE name =?", getClientRowMapper(), model, name);
+        jdbcTemplate.update("UPDATE client SET model =? WHERE name =?", model, name);
     }
 
     @Override

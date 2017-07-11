@@ -20,6 +20,15 @@ public class ClientController {
 
     @RequestMapping(value = "addClientForm.html", method = RequestMethod.GET)
     public ModelAndView showAddClientForm(){
-        return new ModelAndView("/clientViews/addClientForm", "client",new Client());
+        Client modelObject = new Client();
+        modelObject.setCarModel("alfa");
+        return new ModelAndView("/clientViews/addClientForm", "client", modelObject);
     }
+
+    @RequestMapping(value = "addClientForm.html", method = RequestMethod.POST)
+    public ModelAndView showAddClientForm1(Client client){
+
+        return new ModelAndView("/clientViews/addClientConfirmation", "client", client);
+    }
+
 }

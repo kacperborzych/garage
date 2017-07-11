@@ -10,7 +10,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="spring-bootcamp" target="1.8" />
       <module name="workshop" target="1.8" />
     </bytecodeTargetLevel>
   </component>

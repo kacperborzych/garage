@@ -10,14 +10,14 @@ import static org.junit.Assert.*;
 
 public class RestControllerTest {
 
-    private static final String BASE_URL = "http://localhost:8088/garage";
+    private static final String BASE_URL = "http://localhost:8080/garage";
 
     RestTemplate restTemplate = new RestTemplate();
 
     @Test
     public void shouldListOfClient() throws Exception {
 
-        Client[] clients = restTemplate.getForObject("http://localhost:8088/garage/rest/list", Client[].class);
+        Client[] clients = restTemplate.getForObject("http://localhost:8080/garage/rest/list", Client[].class);
 
         Assertions.assertThat(clients).isNotNull();
         Assertions.assertThat(clients.length).isGreaterThan(0);
@@ -35,7 +35,7 @@ public class RestControllerTest {
     }
 
     @Test
-    public void shoulDeleteClient() throws Exception {
+    public void shouldDeleteClient() throws Exception {
 
     }
 }

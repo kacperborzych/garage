@@ -7,20 +7,22 @@
 </head>
 <body>
 <h1>Dodaj nowego klienta</h1>
-<f:form method="post" modelAttribute="client">
+<f:form method="post" modelAttribute="client" >
 <p>
     <f:input path="name"/>
     <f:errors path="name"/>
 </p>
 <p>
-    <f:input path="model"/>
-    <f:errors path="model"/>
+    <f:input path="carModel"/>
+    <f:errors path="carModel"/>
 </p>
-<button type="submit">Dodaj klienta</button>
+<button type="submit">
+    Dodaj klienta</button>
 </f:form>
 
 <p>
-<a href="/idex.html">Powrot do strony glownej</a>
+<a href="/idex.html">
+    Powrot do strony glownej</a>
 </p>
 
 </body>

@@ -7,6 +7,7 @@
     <title>Dodano klienta</title>
 </head>
 <body>
+<h1>Dodano klienta</h1>
 
 </body>
 </html>

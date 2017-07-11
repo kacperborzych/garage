@@ -6,9 +6,21 @@ import org.springframework.stereotype.Component;
 public class Client {
     private int id;
     private String name;
-    private String model;
+    private String carModel;
 
     public Client() {
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setCarModel(String carModel) {
+        this.carModel = carModel;
     }
 
     public int getId() {
@@ -21,14 +33,14 @@ public class Client {
 
 
     public String getCarModel() {
-        return model;
+        return carModel;
     }
 
 
     public Client(int id,String name, String carModel) {
         this.id = id;
         this.name = name;
-        this.model = carModel;
+        this.carModel = carModel;
 
     }
 
@@ -36,7 +48,7 @@ public class Client {
     public String toString() {
         return "Client{" +
                 "name='" + name + '\'' +
-                ", carModel='" + model + '\'' +
+                ", carModel='" + carModel + '\'' +
                 '}';
     }
 }
