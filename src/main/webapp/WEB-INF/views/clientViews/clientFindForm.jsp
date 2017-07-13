@@ -16,7 +16,7 @@
 <f:form method="post" modelAttribute="client">
     <p>
         <f:input path="id"/>
-        <f:input path="id"/>
+        <f:errors path="id"/>
     </p>
     <button type="submit">
     Wyszukaj</button>

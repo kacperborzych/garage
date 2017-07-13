@@ -18,5 +18,11 @@
         Znajdz klienta
     </li>
 </ul>
+<ul>
+    <li>
+        <a href="/allClients.html"/>
+        Wszyscy klienci
+    </li>
+</ul>
 </body>
 </html>

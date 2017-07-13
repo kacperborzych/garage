@@ -41,7 +41,16 @@ public class ClientController {
 
     @RequestMapping(value ="findClientById.html", method = RequestMethod.POST)
     public ModelAndView showFindClientById(Client client){
-      //  clientService.updateClient(client.getName(), client.getCarModel();
+        clientService.findClient(client.getId());                                                                 //todo
         return new ModelAndView("clientViews/clientFindConfirmation", "client", client);
     }
+
+    @RequestMapping(value = "allClients.html")
+    public ModelAndView showAllClients(){
+        ModelAndView modelAndView = new ModelAndView("clientViews/allClients");                     //todo nie wchodzi w metode (brak widoku)
+       modelAndView.addObject("clientsList", clientService.findAllClient());
+       return modelAndView;
+    }
+
+
 }

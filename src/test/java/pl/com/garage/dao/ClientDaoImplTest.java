@@ -18,7 +18,7 @@ import static org.junit.Assert.*;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("classpath:spring.xml")
-public class ClientDaoImplTest {
+public class git ClientDaoImplTest {
 
 
     @Autowired
